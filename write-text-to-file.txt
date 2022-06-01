@@ -1,0 +1,7 @@
+#addition after line 128 in file: generator.py
+#purpose: write the generated sentence to .txt file
+
+    ttxt = str(sentence)
+    file = open("text.txt", "a")
+    file.write(ttxt + " ")
+    file.close()
